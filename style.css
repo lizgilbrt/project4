@@ -1,0 +1,85 @@
+body {
+    background-color: #DED6AD;
+    text-align: center;
+    margin: 50px;
+    font-family: "Bentham", serif;
+    font-size: large;
+}
+.bentham-regular {
+  font-family: "Bentham", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+    font-family: "sofia", sans-serif;
+    font-size: 45px;
+    color: darkgreen;
+    text-shadow:
+        1px 1px 0 white,
+        1px 2px 0 grey,
+        2px 2px 0 grey,
+        1px 4px 1px darkgrey;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+p {
+    text-align: justify
+}
+p a{
+    color: darkgreen;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+.center-text {
+    text-align: center;
+    font-size: 26px;
+    text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+main {
+    margin: 70px;
+    padding: 40px;
+    background-color: floralwhite;
+    border: 3px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 4px grey;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.float-left {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 125px;
+    border: 2px solid black;
+}
+.copyright{
+    text-align: center;
+}
+ul li {
+    text-align: center;
+    list-style: none;
+}
+h3 {
+    text-align: center;
+}
